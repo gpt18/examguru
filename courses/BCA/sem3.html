@@ -27,6 +27,7 @@
 
     <!-- Template Main CSS File -->
     <link href="https://gpt18.github.io/examguru/assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="TableStyle.css">
 
     <!-- =======================================================
   * Template Name: Gp - v2.2.0
@@ -83,53 +84,103 @@
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center justify-content-center">
+    <section id="hero" class="d-flex align-items-center justify-content-center" style="height: 20px;">
         <div class="container" data-aos="fade-up">
-
-            <!-- ====== Notice Board ====== -->
-            <section id="notice " class="notice ">
-                <div class="container " data-aos="fade-up ">
-
-                    <div class="section-title ">
-                        <p>Semester 3</p>
-                    </div>
-                    <div class="col-lg-20 col-md-10 d-flex align-items-stretch ">
-                        <div class="box " data-aos="fade-up " data-aos-delay="100 ">
-
-                            <div class="item">
-                                <a href="">
-                                    <i class="ri-check-double-line"></i> Result updated
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="">
-                                    <i class="ri-check-double-line"></i> Result updated
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="">
-                                    <i class="ri-check-double-line"></i> Result updated
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="">
-                                    <i class="ri-check-double-line"></i> Result updated
-                                </a>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ====== End Notice Board ====== -->
-
-
-        </div>
-
         </div>
     </section>
     <!-- End Hero -->
+    <!-- ====== Notice Board ====== -->
+    <section id="notice " class="notice ">
+        <div class="container " data-aos="fade-up ">
+
+            <div class="section-title ">
+                <p>Semester 3</p>
+            </div>
+            <div class="col-lg-20 col-md-10 d-flex align-items-stretch ">
+                <div class="box " data-aos="fade-up " data-aos-delay="100 ">
+
+                    <div class="item">
+                        <div class="subject_table" style="overflow-x: auto; color: aliceblue;">
+                            <table border="1px solid">
+                                <tr>
+                                    <th>Paper Code</th>
+                                    <th>Subjects</th>
+                                    <th>Notes</th>
+                                    <th>Akash</th>
+                                    <th>Extra</th>
+
+                                </tr>
+                                <tr>
+                                    <td>BCA 201</td>
+                                    <td>Mathematics–III</td>
+                                    <td><a href="#">open</a></td>
+                                    <td><a href="#">Download</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>BCA 203</td>
+                                    <td>Computer Architecture</td>
+                                    <td><a href="#">open</a></td>
+                                    <td><a href="#">Download</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>BCA 205</td>
+                                    <td>Front End Design ToolVB.Net</td>
+                                    <td><a href="#">open</a></td>
+                                    <td><a href="#">Download</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>BCA 207</td>
+                                    <td>Principles ofAccounting</td>
+                                    <td><a href="#">open</a></td>
+                                    <td><a href="#">Download</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>BCA 209</td>
+                                    <td>Object OrientedProgramming usingC++</td>
+                                    <td><a href="#">open</a></td>
+                                    <td><a href="#">Download</a></td>
+                                    <td><a href="#">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="section-title ">
+                <p>Syllabus</p>
+            </div>
+
+            <details>
+                <summary>
+                    Mathematics–III
+                </summary>
+                <p><b>UNIT–I</b>
+                    <br> Measures of Central Tendency & DispersionDefinition, Importance & Limitation. Collection of data and formation of frequencydistribution. Graphic presentation of frequency distribution–graphics, Bars, Histogram,Diagrammatic. Measures
+                    of central tendency–mean, median and mode, partition values–quartiles, deciles and percentiles. Measures of variation–range, IQR, quartile, deciles andpercentiles.</p>
+                <p><b>UNIT–II</b>
+                    <br> Correlation/RegressionCorrelation Coefficient; Assumptions of correlation analysis; coefficients of determination andcorrelation; measurement of correlation-Karl Person’s Methods; Spearman’s rank correlation;concurrent deviation
+                    the correlation coefficient; Pitfalls and limitations associated withregression and correlation analysis; real world application using IT tools</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- ====== End Notice Board ====== -->
+
+
 
 
     </main>
@@ -174,7 +225,7 @@
     <!-- End Footer -->
 
     <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-    
+
 
     <!-- Vendor JS Files -->
     <script src="https://gpt18.github.io/examguru/assets/vendor/jquery/jquery.min.js"></script>
